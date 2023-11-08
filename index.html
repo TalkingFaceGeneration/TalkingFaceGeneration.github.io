@@ -165,7 +165,7 @@
             </div>
         </div>
         
-        <p>We use 5 different videos with a single audio to generate talking faces. The videos are sample videos presented by DINet. For the face enhancement, instead of using VQFR that we proposed in our paper, we employed GFPGAN in order to show that the illumination inconsistency in our final videos were caused by VQFR face enhancement method.</p>
+        <p>We use 5 different videos with a single audio to generate talking faces. The videos are sample videos presented by DINet. For the face enhancement, instead of using VQFR that we proposed in our paper, we employed GFPGAN in order to show that the illumination inconsistency in our final videos were caused by VQFR face enhancement method. However, we think that VQFR is more accurate than GFPGAN to keep the identity, naturalness and the synchronization the same despite inconsistent illumination.</p>
 
         <div class="row justify-content-center", style="padding-bottom:5%">
             <div class="col-md-8">
@@ -177,7 +177,17 @@
             </div>
         </div>
 
+        <p>We use 6 different videos with a single audio to generate talking faces. The videos are sample videos presented by VideoReTalking. For the face enhancement, we used VQFR as we proposed in our paper. </p>
         
+        <div class="row justify-content-center", style="padding-bottom:5%">
+            <div class="col-md-8">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" controls>
+                        <source src="final_VQFR_videos2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
 
     </div>
 
